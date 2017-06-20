@@ -8,9 +8,10 @@ FIELDS = ('area', 'population', 'iso', 'country', 'capital', 'continent', 'tld',
 def scrape_callback(url, html):
 	if re.search('/view/',url):
 		tree = lxml.html.fromstring(html)
-		row = [tree.cssselect('table > tr#places_{}_row > td.w2p_fw'.format(field))[0].text_content() for field in FIELDS]
+		row = [tree.cssselect('table > tr#places_{}__row > td.w2p_fw'.format(field))[0].text_content() for field in FIELDS]
 		print(url, row)
 
 
 if __name__ == '__main__':
-	link_crawler('http://example.webscraping.com/', '/(index|view)', scrape_callback=scrape_callback)
+	link_crawler('http://example.webscraping.com', r'[0-9a-zA-Z./:]*/view/[0-9a-zA-Z./:]*', delay=1,
+				 num_retries=1, user_agent='BadCrawel', scrape_callback=scrape_callback)

@@ -12,7 +12,7 @@ from urllib import robotparser
 def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1, headers=None, user_agent='wswp', proxy=None, num_retries=1, scrape_callback=None):
 	"""Crawl from the given seed URL following links matched by link_regex
     """
-    # the queue of URL's that still need to be crawled
+	# the queue of URL's that still need to be crawled
 	crawl_queue = deque([seed_url])
 	# the URL's that have been seen and at what depth
 	seen = {seed_url: 0}
@@ -34,8 +34,8 @@ def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1, 
 			links = []
 
 			if scrape_callback:
-				# links.extend(scrape_callback(url, html) or [])
-				scrape_callback(url, html)
+				links.extend(scrape_callback(url, html) or [])
+				# scrape_callback(url, html)
 
 			depth = seen[url]
 			if depth != max_depth:
@@ -68,7 +68,7 @@ class Throttle():
     """
 
 	def __init__(self, delay):
-    	# amount of delay between downloads for each domain
+		# amount of delay between downloads for each domain
 		self.delay = delay
 		# timestamp of when a domain was last accessed
 		self.domains = {}
@@ -135,7 +135,7 @@ def same_domain(url1, url2):
 def get_links(html):
 	"""Return a list of links from html 
     """
-    # a regular expression to extract all links from the webpage
+	# a regular expression to extract all links from the webpage
 	webpage_regex = re.compile('<a[^>]+href=["\'](.*?)["\']', re.IGNORECASE)
 	return webpage_regex.findall(html)
 

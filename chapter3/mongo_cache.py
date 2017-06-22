@@ -4,7 +4,7 @@ import zlib
 from datetime import datetime, timedelta
 from pymongo import MongoClient
 from bson.binary import Binary
-from link_crawler import link_crawler
+from chapter3.link_crawler import link_crawler
 
 class MongoCache():
 

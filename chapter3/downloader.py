@@ -1,7 +1,7 @@
 
 from urllib.request import Request, urlparse, ProxyHandler, build_opener
 from urllib.error import URLError
-from throttle import Throttle
+from chapter3.throttle import Throttle
 import random
 
 class Downloader():
@@ -49,7 +49,8 @@ class Downloader():
 
         try:
             with opener.open(request) as response:
-                html = response.read().decode('utf-8')
+                # html = response.read().decode('utf-8')
+                html = response.read()
                 code = response.code
         except URLError as e:
             print('Download error:', e.reason)

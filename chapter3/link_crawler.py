@@ -3,7 +3,7 @@ import re
 from collections import deque
 from urllib.parse import urlparse, urldefrag, urljoin
 from urllib import robotparser
-from downloader import Downloader
+from chapter3.downloader import Downloader
 
 
 def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1, headers=None, user_agent='wswp', proxies=None, num_retries=1, scrape_callback=None, cache=None):

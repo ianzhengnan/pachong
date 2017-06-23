@@ -20,5 +20,5 @@ class ScrapeCallback():
 
 
 if __name__ == '__main__':
-	link_crawler('http://example.webscraping.com', r'[0-9a-zA-Z./:]*/view/[0-9a-zA-Z./:]*', delay=1,
+    link_crawler('http://example.webscraping.com', r'[0-9a-zA-Z./:]*/view/[0-9a-zA-Z./:]*', delay=1,
 				 num_retries=1, user_agent='BadCrawel', scrape_callback=ScrapeCallback())

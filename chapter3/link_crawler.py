@@ -6,7 +6,9 @@ from urllib import robotparser
 from chapter3.downloader import Downloader
 
 
-def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1, headers=None, user_agent='wswp', proxies=None, num_retries=1, scrape_callback=None, cache=None):
+def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1,
+				 headers=None, user_agent='wswp', proxies=None, num_retries=1,
+				 scrape_callback=None, cache=None, ignore_robots=False):
 	"""Crawl from the given seed URL following links matched by link_regex
     """
 	# the queue of URL's that still need to be crawled
@@ -25,7 +27,7 @@ def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1, 
 	while crawl_queue:
 		url = crawl_queue.pop()
 		# check url passes robots.txt restrictions
-		if rp.can_fetch(user_agent, url):
+		if ignore_robots or rp.can_fetch(user_agent, url):
 			html = downloader(url)
 			links = []
 

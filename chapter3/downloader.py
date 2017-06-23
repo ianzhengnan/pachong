@@ -49,8 +49,8 @@ class Downloader():
 
         try:
             with opener.open(request) as response:
-                html = response.read().decode('utf-8')
-                # html = response.read()
+                # html = response.read().decode('utf-8')
+                html = response.read()
                 code = response.code
         except URLError as e:
             print('Download error:', e.reason)

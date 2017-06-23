@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371405ae-0019-4eaa-9816-bb60245766b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/alexa_cb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/readcsv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pachong.iml" afterPath="$PROJECT_DIR$/.idea/pachong.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter2/crawler_callback2.py" afterPath="$PROJECT_DIR$/chapter2/crawler_callback2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter3/downloader.py" afterPath="$PROJECT_DIR$/chapter3/downloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter3/link_crawler.py" afterPath="$PROJECT_DIR$/chapter3/link_crawler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter3/mongo_cache.py" afterPath="$PROJECT_DIR$/chapter3/mongo_cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter4/readcsv.py" afterPath="$PROJECT_DIR$/chapter4/readcsv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter4/sequential_test.py" afterPath="$PROJECT_DIR$/chapter4/sequential_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="alexa_cb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alexa_cb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter4/alexa_cb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="170">
+              <caret line="10" column="77" lean-forward="true" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -36,24 +36,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readcsv.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sequential_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter4/sequential_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link_crawler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/link_crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-342">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readcsv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter4/readcsv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="352">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
-                <element signature="e#1#11#0" expanded="true" />
+                <element signature="e#1#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_csv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1247971765/_csv.py">
+      <file leaf-file-name="_io.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/32750355/_io.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="99" column="19" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="19" />
+            <state relative-caret-position="930">
+              <caret line="1239" column="42" lean-forward="true" selection-start-line="1239" selection-start-column="42" selection-end-line="1239" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zipfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/envs/test_py3/lib/python3.6/zipfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="818" column="55" lean-forward="false" selection-start-line="818" selection-start-column="55" selection-end-line="818" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="downloader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/downloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="8" column="92" lean-forward="true" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+              <folding>
+                <element signature="e#1#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +118,8 @@
       <find>&lt;a[^&gt;]+href=[&quot;\'](.*?)[&quot;\']</find>
       <find>IGNORECASE</find>
       <find>download error</find>
+      <find>read</find>
+      <find>read(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,7 +131,6 @@
         <option value="$PROJECT_DIR$/chapter1/sitemap.py" />
         <option value="$PROJECT_DIR$/chapter1/link_crawler.py" />
         <option value="$PROJECT_DIR$/chapter2/crawler_callback1.py" />
-        <option value="$PROJECT_DIR$/chapter2/crawler_callback2.py" />
         <option value="$PROJECT_DIR$/chapter2/link_crawler.py" />
         <option value="$PROJECT_DIR$/chapter3/throttle.py" />
         <option value="$PROJECT_DIR$/chapter3/__init__.py" />
@@ -91,17 +138,19 @@
         <option value="$PROJECT_DIR$/chapter3/disk_cache.py" />
         <option value="$PROJECT_DIR$/chapter4/__init__.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/chapter3/downloader.py" />
         <option value="$PROJECT_DIR$/chapter3/mongo_cache.py" />
-        <option value="$PROJECT_DIR$/chapter3/link_crawler.py" />
-        <option value="$PROJECT_DIR$/chapter4/readcsv.py" />
         <option value="$PROJECT_DIR$/chapter4/alexa_cb.py" />
+        <option value="$PROJECT_DIR$/chapter2/crawler_callback2.py" />
+        <option value="$PROJECT_DIR$/chapter4/sequential_test.py" />
+        <option value="$PROJECT_DIR$/chapter3/link_crawler.py" />
+        <option value="$PROJECT_DIR$/chapter3/downloader.py" />
+        <option value="$PROJECT_DIR$/chapter4/readcsv.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="45" />
+    <option name="x" value="146" />
+    <option name="y" value="24" />
     <option name="width" value="1576" />
     <option name="height" value="905" />
   </component>
@@ -124,7 +173,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,11 +229,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -204,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.alexa_cb">
+  <component name="RunManager" selected="Python.readcsv">
     <configuration default="false" name="link_crawler (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,8 +417,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.alexa_cb" />
-        <item index="1" class="java.lang.String" itemvalue="Python.readcsv" />
+        <item index="0" class="java.lang.String" itemvalue="Python.readcsv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.alexa_cb" />
         <item index="2" class="java.lang.String" itemvalue="Python.mongo_cache" />
         <item index="3" class="java.lang.String" itemvalue="Python.disk_cache" />
         <item index="4" class="java.lang.String" itemvalue="Python.link_crawler (1)" />
@@ -399,18 +448,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="45" width="1576" height="905" extended-state="0" />
-    <editor active="true" />
+    <frame x="146" y="24" width="1576" height="905" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18527919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28553617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36071888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38528678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40179718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -433,6 +481,11 @@
           <line>10</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter4/readcsv.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -441,50 +494,18 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="StringIO(html)" language="Python" />
+        <watch expression="zf.open(csv_filename)" language="Python" />
+        <watch expression="zf.namelist()" language="Python" />
+        <watch expression="zf.read(csv_filename)" language="Python" />
+        <watch expression="zf.read(csv_filename).decode('utf-8')" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter3/downloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#73#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/link_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/disk_cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/throttle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/crawler_callback1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -516,7 +537,7 @@
         <state relative-caret-position="289">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#1#73#0" expanded="false" />
+            <element signature="e#1#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,7 +546,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -533,9 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="87" column="11" lean-forward="true" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
-          <folding>
-            <element signature="e#1#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,17 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="1190" column="6" lean-forward="false" selection-start-line="1190" selection-start-column="6" selection-end-line="1190" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/downloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#73#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,9 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,14 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/crawler_callback2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -805,19 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/link_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.4/zipfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1297">
           <caret line="1119" column="8" lean-forward="false" selection-start-line="1119" selection-start-column="8" selection-end-line="1119" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,22 +818,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/readcsv.py">
+    <entry file="file://$PROJECT_DIR$/chapter2/crawler_callback2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="340">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/alexa_cb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="77" lean-forward="true" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/alexa_cb.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/32750355/_io.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="930">
+          <caret line="1239" column="42" lean-forward="true" selection-start-line="1239" selection-start-column="42" selection-end-line="1239" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/link_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#1#11#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/sequential_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="8" column="92" lean-forward="true" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+          <folding>
+            <element signature="e#1#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/32750355/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/test_py3/lib/python3.6/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="818" column="55" lean-forward="false" selection-start-line="818" selection-start-column="55" selection-end-line="818" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/readcsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

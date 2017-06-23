@@ -15,8 +15,8 @@ def alexa1():
     urls = []
     with ZipFile(BytesIO(zipped_data)) as zf:
         csv_filename = zf.namelist()[0]
-        for _, website in csv.reader(zf.read(csv_filename).decode('utf-8')):
-            urls.append('http://' + website)
+        for website in zf.read(csv_filename).decode('utf-8'):
+            urls.append('http://' + website[0] if website else '')
 
     return urls
 

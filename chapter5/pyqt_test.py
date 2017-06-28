@@ -16,7 +16,7 @@ webview.show()
 frame = webview.page().mainFrame()
 frame.findFirstElement('#search_term').setAttribute('value', '.')
 frame.findFirstElement('#page_size option:checked').setPlainText('1000')
-# frame.findFirstElement('#search').evaluateJavascript('this.click()')
+frame.findFirstElement('#search').evaluateJavaScript('this.click()')
 app.exec_()
 
 
